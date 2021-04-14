@@ -30,7 +30,9 @@ function App() {
           id='amount'
           value={count}
         />
-        <button className='btn'>generate</button>
+        <button className='btn' type='submit'>
+          generate
+        </button>
       </form>
       <article className='lorem-ipsum'>
         {text.map((item, index) => {
